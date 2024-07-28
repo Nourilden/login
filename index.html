@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="master.css">
-    <title>Nour</title>
+    <title>Login</title>
 </head>
 <body>
     <header>
         <h3>Nour</h3>
         <nav>
-            <button><a href="">Login</a></button>
-            <button><a href="">Sign In</a></button>
+            <button><a href="#">Login</a></button>
+            <button><a href="#">Sign In</a></button>
         </nav>
-        <link rel="shortcut icon" href="login.ico" type="image/x-icon">
     </header>
-    <script src="main.js"></script>
+    <main>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
